@@ -1,0 +1,135 @@
+# ===========================================
+# OpenClaw 个人主页配置文件
+# ===========================================
+# 使用说明：
+# 1. 复制此文件为 config.ini
+# 2. 修改以下配置项为你的真实信息
+# 3. 保存后用于初始化个人主页
+# ===========================================
+
+[github]
+# GitHub 用户名（必须与你的 GitHub 账号一致）
+username = zhangsan
+
+# GitHub 邮箱（与 GitHub 账号关联的邮箱）
+email = zhangsan@example.com
+
+# Personal Access Token（推荐使用 Token 而非 SSH）
+# 获取方式：https://github.com/settings/tokens
+access_token = ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# 仓库名称（必须是 用户名.github.io 格式）
+repo_name = zhangsan.github.io
+
+[user]
+# 中文姓名
+name_cn = 张三
+
+# 英文姓名
+name_en = San Zhang
+
+# 头衔/职位（中文）
+title_cn = XX 大学 博士生
+
+# 头衔/职位（英文）
+title_en = PhD Student @ XX University
+
+# 联系邮箱
+email = zhangsan@example.com
+
+# 头像文件路径（相对于项目目录 images/ 文件夹）
+avatar_path = images/profile.jpeg
+
+[lab]
+# ===== 实验室 1 =====
+lab1_name_en = XX Lab
+lab1_name_cn = XX 实验室
+lab1_full_en = XXXX Laboratory
+lab1_full_cn = XXXX 实验室
+lab1_role_en = Member
+lab1_role_cn = 成员
+
+# ===== 实验室 2（如没有可留空）=====
+lab2_name_en = YY Lab
+lab2_name_cn = YY 实验室
+lab2_full_en = YYY Laboratory
+lab2_full_cn = YYY 实验室
+lab2_role_en = Research Assistant
+lab2_role_cn = 助理研究员
+
+[education]
+# ===== 博士 =====
+phd_start = 20XX
+phd_end = Present
+phd_school_en = XX University
+phd_school_cn = XX 大学
+
+# ===== 硕士 =====
+master_start = 20XX
+master_end = 20XX
+master_school_en = XX University
+master_school_cn = XX 大学
+
+# ===== 本科 =====
+bachelor_start = 20XX
+bachelor_end = 20XX
+bachelor_school_en = XX University
+bachelor_school_cn = XX 大学
+
+[research]
+# 研究方向（英文，用逗号分隔）
+directions_en = Research Direction 1, Research Direction 2, Research Direction 3
+
+# 研究方向（中文，用逗号分隔）
+directions_cn = 研究方向 1，研究方向 2，研究方向 3
+
+[links]
+# GitHub 个人主页
+github = https://github.com/zhangsan
+
+# ORCID 学术标识
+orcid = https://orcid.org/XXXX-XXXX-XXXX-XXXX
+
+# Google Scholar 学术主页
+google_scholar = https://scholar.google.com/citations?user=XXXXX
+
+# 个人网站（如果有）
+website = https://zhangsan.github.io
+
+[awards]
+# 竞赛获奖（格式：年份。月份 | 竞赛名称 | 奖项等级）
+# 每行一个奖项，按时间倒序排列（最新在前）
+award_1 = 20XX.XX | 竞赛名称 1 | 奖项等级
+award_2 = 20XX.XX | 竞赛名称 2 | 奖项等级
+award_3 = 20XX.XX | 竞赛名称 3 | 奖项等级
+
+[style]
+# 默认风格（academic 或 natural）
+default_style = academic
+
+# 默认语言（en 或 zh）
+default_language = en
+
+# 是否默认隐藏获奖部分（true 或 false）
+hide_awards = true
+
+[existing_site]
+# ===========================================
+# 重要：是否已有 GitHub Pages 主页？
+# ===========================================
+# 如果你已经有 用户名.github.io 仓库和主页：
+#   - 设置为 true
+#   - 只需更新配置和管理内容
+#   - 不需要重新创建仓库
+#
+# 如果是第一次创建：
+#   - 设置为 false
+#   - 需要按指南创建新仓库
+# ===========================================
+already_has_site = false
+
+# 如果已有网站，填写仓库路径（绝对路径）
+existing_repo_path = 
+
+# 如果已有网站，是否保留现有内容（true 保留，false 覆盖）
+keep_existing_content = true
